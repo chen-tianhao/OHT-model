@@ -5,6 +5,7 @@ import System
 class Path:
 
     def __init__(self):
+        self.Id = ''
         self.start_point = ControlPoint()
         self.end_point = ControlPoint()
         self.length = 0
